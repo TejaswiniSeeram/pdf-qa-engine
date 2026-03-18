@@ -19,4 +19,3 @@ answers missing for some questions. Investigating chunking strategy.
 
 **Lesson learned:** Chunk size is not a set-and-forget parameter. 
 Dense technical documents need smaller chunks than general text.
-
