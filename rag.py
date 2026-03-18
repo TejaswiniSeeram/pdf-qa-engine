@@ -26,7 +26,7 @@ def extract_text_from_pdf(pdf_path):
 
 
 # STEP 2: Chunk — one chunk per page, then split large pages
-def chunk_text(pages, max_words=500, overlap=50):
+def chunk_text(pages, max_words=250, overlap=30):
     chunks = []
 
     for page_text in pages:
